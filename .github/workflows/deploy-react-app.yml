@@ -1,0 +1,54 @@
+name: React App Deployment # name of the workflow
+
+on:
+  push:
+    branches:
+      - master # branch name
+
+jobs:
+  deploy-react-to-gh-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      # checkout the repository content to github runner
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # setup nodejs environment
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: "18.16.1"
+
+      # cache the dependencies to speed up the build
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # install dependencies
+      - name: Install dependencies
+        run: npm i
+
+      # build the react app
+      - name: Build
+        run: npm run build
+
+      # git config user.email
+      - name: Config Email
+        run: git config --global user.email '${{ secrets.EMAIL }}'
+
+      # git config user.name
+      - name: Config Email
+        run: git config --global user.name '${{ secrets.USERNAME }}'
+      
+      # git config user.name
+      - name: Config Email
+        run: git remote set-url origin https://${{ secrets.TOKEN }}@github.com/Fourntech/Fourntech.github.io.git
+
+      # deploy the react app to github pages
+      - name: Deploy
+        run: CI=false && npm run deploy
