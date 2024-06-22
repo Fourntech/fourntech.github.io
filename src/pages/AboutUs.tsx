@@ -14,8 +14,8 @@ class AboutUsPage extends React.Component {
                 </div>
 
                 <Container>
-                    <div className="text-center HomePage-Heading">
-                        <h3 className="HomePage-Heading">Why do we exist?</h3>
+                    <div className="text-center homepage-heading">
+                        <h3 className="homepage-heading">Why do we exist?</h3>
                         <p>{ OutGoal } </p>
                     </div>
                 </Container>
