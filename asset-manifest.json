@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.dea432a2.css",
-    "main.js": "/static/js/main.0f1a33ec.js",
-    "static/js/453.de5fdb06.chunk.js": "/static/js/453.de5fdb06.chunk.js",
-    "static/media/Ponneeswaran.jpg": "/static/media/Ponneeswaran.e63341a2ef5bb3a5243c.jpg",
-    "static/media/Praveen.jpg": "/static/media/Praveen.0c8a465a43faa79d35d9.jpg",
-    "static/media/Manjunath.jpg": "/static/media/Manjunath.3de468e5167f9a021b86.jpg",
-    "static/media/Arun.jpeg": "/static/media/Arun.254058af7e2306eade63.jpeg",
-    "static/media/logo.svg": "/static/media/logo.9418dba17fcaf3a7a4a57033c0cb6fc8.svg",
-    "index.html": "/index.html",
-    "main.dea432a2.css.map": "/static/css/main.dea432a2.css.map",
-    "main.0f1a33ec.js.map": "/static/js/main.0f1a33ec.js.map",
-    "453.de5fdb06.chunk.js.map": "/static/js/453.de5fdb06.chunk.js.map"
+    "main.css": "/fourntech.github.io/static/css/main.dea432a2.css",
+    "main.js": "/fourntech.github.io/static/js/main.3e7d4389.js",
+    "static/js/453.de5fdb06.chunk.js": "/fourntech.github.io/static/js/453.de5fdb06.chunk.js",
+    "static/media/Ponneeswaran.jpg": "/fourntech.github.io/static/media/Ponneeswaran.e63341a2ef5bb3a5243c.jpg",
+    "static/media/Praveen.jpg": "/fourntech.github.io/static/media/Praveen.0c8a465a43faa79d35d9.jpg",
+    "static/media/Manjunath.jpg": "/fourntech.github.io/static/media/Manjunath.3de468e5167f9a021b86.jpg",
+    "static/media/Arun.jpeg": "/fourntech.github.io/static/media/Arun.254058af7e2306eade63.jpeg",
+    "static/media/logo.svg": "/fourntech.github.io/static/media/logo.9418dba17fcaf3a7a4a57033c0cb6fc8.svg",
+    "index.html": "/fourntech.github.io/index.html",
+    "main.dea432a2.css.map": "/fourntech.github.io/static/css/main.dea432a2.css.map",
+    "main.3e7d4389.js.map": "/fourntech.github.io/static/js/main.3e7d4389.js.map",
+    "453.de5fdb06.chunk.js.map": "/fourntech.github.io/static/js/453.de5fdb06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dea432a2.css",
-    "static/js/main.0f1a33ec.js"
+    "static/js/main.3e7d4389.js"
   ]
 }
