@@ -28,11 +28,8 @@ class OurTeamMembers extends React.Component {
             );
         }
 
-        const cards = [];
-        TeamMembersData.flatMap((member, index)=> {
-            cards.push(
-                <MemberCard member={member} key={member.name}/>
-            );
+        const cards = TeamMembersData.flatMap((member, index)=> {
+            return <MemberCard member={member} key={member.name}/>
         });
 
         return (

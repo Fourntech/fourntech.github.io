@@ -1,23 +1,31 @@
-.HomePage-Heading {
+/* Import Bootstrap and its default variables */
+@import '~bootstrap/scss/bootstrap.scss';
+
+.homepage-heading {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 .card-padding {
     margin-top: 25px;
     margin-bottom: 50px;
 }
+
 .brand-image {
     width: 50px;
     height: 50px;
     align-content: top;
 }
+
 .boder-padding {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .polaroid {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .footer {
     background-color: #2f2f2f;
     color: #fff;
@@ -25,6 +33,3 @@
     flex-shrink: 0;
     text-align: center;
 }
-
-// Import Bootstrap and its default variables
-@import '~bootstrap/scss/bootstrap.scss';
