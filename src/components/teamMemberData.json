@@ -1,0 +1,32 @@
+[
+    {
+        "category": "admin", 
+        "name": "Arun Prasad Raghavendran",
+        "imgName": "https://raw.githubusercontent.com/Fourntech/fourntech.github.io/master/src/assets/About/Arun.jpeg",
+        "webpage": "https://www.rarunprasad.com",
+        "linkedin": "https://www.linkedin.com/in/arunprasadraghavendran",
+        "github": "https://github.com/rarunprasad-github"
+    },
+    {
+        "category": "admin", 
+        "name": "Manjunath Mohan",
+        "imgName": "https://raw.githubusercontent.com/Fourntech/fourntech.github.io/master/src/assets/About/Manjunath.jpg",
+        "linkedin": "https://in.linkedin.com/in/manjunath-n-m-56860544",
+        "github": "https://github.com/nmmanjunath90"
+    },
+    {
+        "category": "Admin", 
+        "name": "Ponneeswaran Natarajan",
+        "imgName": "https://raw.githubusercontent.com/Fourntech/fourntech.github.io/master/src/assets/About/Ponneeswaran.jpg",
+        "twitter": "https://twitter.com/Ponneeswaran",
+        "linkedin": "https://www.linkedin.com/in/ponneeswaran-natarajan-253920105",
+        "github": "https://github.com/ponneeswaran"
+    },
+    {
+        "category": "admin", 
+        "name": "Praveen Prabhakar",
+        "imgName": "https://raw.githubusercontent.com/Fourntech/fourntech.github.io/master/src/assets/About/Praveen.jpg",
+        "linkedin": "https://www.linkedin.com/in/ppraveentr",
+        "github": "https://github.com/ppraveentr"
+    }
+]
